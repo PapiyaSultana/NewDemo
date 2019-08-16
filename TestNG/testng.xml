@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit">         
+  <test name="Test1">    
+    <classes>            
+      <class name="testTutorial.Demo1">   
+      <methods>
+      <include name= "Case"/>                 
+      </methods>      
+      </class>   
+      
+      
+       <class name="testTutorial.Demo2"/>  
+         <class name="testTutorial.Demo3"/> 
+        </classes>             
+  </test> 
+  
+  <test name="Test2">    
+    <classes>            
+      <class name="testTutorial.Demo4">
+      <methods>
+      <exclude name= "mobile.*"/>                 
+      </methods>
+      
+      </class>           
+        </classes>      
+        </test>     
+</suite>   

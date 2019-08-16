@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-07T07:04:27Z" name="Default suite" finished-at="2019-08-07T07:04:27Z" duration-ms="61">
+    <groups>
+      <group name="Smoke">
+        <method signature="Demo3.APILoginCarloan()[pri:0, instance:testTutorial.Demo3@5d47c63f]" name="APILoginCarloan" class="testTutorial.Demo3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2019-08-07T07:04:27Z" name="Default test" finished-at="2019-08-07T07:04:27Z" duration-ms="61">
+      <class name="testTutorial.Demo3">
+        <test-method signature="APILoginCarloan()[pri:0, instance:testTutorial.Demo3@5d47c63f]" started-at="2019-08-07T07:04:27Z" name="APILoginCarloan" finished-at="2019-08-07T07:04:27Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarloan -->
+        <test-method signature="mobileLoginCarloan()[pri:0, instance:testTutorial.Demo3@5d47c63f]" started-at="2019-08-07T07:04:27Z" name="mobileLoginCarloan" finished-at="2019-08-07T07:04:27Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarloan -->
+        <test-method signature="webLoginCarLoan()[pri:0, instance:testTutorial.Demo3@5d47c63f]" started-at="2019-08-07T07:04:27Z" name="webLoginCarLoan" finished-at="2019-08-07T07:04:27Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+      </class> <!-- testTutorial.Demo3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
